@@ -6,6 +6,7 @@
     }
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -17,6 +18,12 @@
         float: right;
         width: 70%;
     }
+    form > input[type= submit]{
+        margin-left: 70px;
+    }
+    form > a.botao{
+        margin-left: 70px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -25,11 +32,13 @@
     }
     section#login{
         width: 950px;
+        height: 320px;
     }
     section#login > div#imagem{
         float: right;
         width: 50%;
         height: 100%;
+        background-position-y: -120px;
     }
     section#login > div#formulario{
         float: left;
@@ -42,5 +51,11 @@
     div#formulario > p{
         font-size: 1.2em;
         text-align: center;
+    }
+    form > input[type= submit]{
+        margin-left: 70px;
+    }
+    form > a.botao{
+        margin-left: 70px;
     }
 }
