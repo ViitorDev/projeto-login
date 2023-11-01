@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: darkgray;
+}
+header{
+    background: gray url(../imagens/predio.jpg);
+    background-position: center top;
+    background-size: cover;
+    width: 250px;
+    height: 210px;
+    margin: auto;
+    margin-top: 70px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+main{
+    margin: auto;
+    width: 250px;
+    height: 320px;
+    background-color: #90867a;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+main > h1{
+    text-align: center;
+    padding-top: 10px;
+    color: #dcdbd7;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.564);
+}
+main > p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+span{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #dcdbd7;
+}
+
+input.login{
+    padding-top: 9px;
+    background-color: #dcdbd7;
+    border-radius: 7px;
+}
+span#enviar{
+    padding: 48px;
+    
+}
+input#enviar1{
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #dcdbd7;
+    color: #534d46;
+}
+input#enviar2{
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #dcdbd7;
+    color: #534d46;
+}
+div{
+    padding-left: 48px;
+}
+
